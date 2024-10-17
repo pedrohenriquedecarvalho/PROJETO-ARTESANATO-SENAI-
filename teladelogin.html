@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
     <nav>
         <div>
             <a href="loja.html"><img src="Imagens esquina do artesanato/Logo.png.png" width="4%"></a>
             <p>Esquina do Artesanato</p>
         </div>
-       
+
     </nav>
 
-    <p>Para continuar acessando nossos produtos e ofertas, preencha os campos a seguir:</p>
-    <h1>LOGIN</h1>
+    <div class="cen">
+        <p>Para continuar acessando nossos produtos e ofertas, preencha os campos a seguir:</p>
+        <h1>LOGIN</h1>
 
-    <label for="email">E-mail</label>
-    <input type="email" name="email" id="email" placeholder="E-mail">
-<br>
-    <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha" placeholder="Senha">
-<br>
-<input type="submit" value="Enviar">
+        <div>
+            <h3>E-mail</h3>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+
+            <h3>Senha</h3>
+            <label for="senha" class="senha"></label>
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+
+
+            <input type="submit" value="Enviar >" class="env">
+        </div>
+    </div>
 </body>
+
 </html>
