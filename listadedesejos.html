@@ -4,31 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Desejos</title>
+    <link rel="stylesheet" href="./Style - Lista de desejos.css">
 </head>
-    <body>
-        <header>
-            <img src="./src/Logo - Esquina do Artesanato.png" alt="Logo Esquina do Artesanato" width="12%" height="20%"><br><br>
-            <label for="barraPesquisa">Barra de pesquisa:</label>
-            <input type="text" name="barraPesquisa" placeholder="Procurar">
+    <body> 
+        <header class="header">
+            <div><img src="./Imagens esquina do artesanato/Logo EDA.png" alt="Logo Esquina do Artesanato" width="12%" height="20%"></div>              
+            <div class="barrapesquisa">
+                <img src="./Imagens esquina do artesanato/Lupa barra de pesquisa.png" alt="Barra de pesquisa" id="lupa">
+                <label for="barraPesquisa"><label>           
+                <input type="text" name="barraPesquisa" placeholder="Procurar" id="procurar">           
+            </div>
         </header>
 
+        <div class="cardsprodutos">
         <section>
             <h3>Produto 1</h3>
             <p>Informações do produto</p>
-            <a href="#">Link produto 1</a>     
+            <a href="#produto1">Link produto 1</a>     
         </section>
 
         <section>
             <h3>Produto 2</h3>
             <p>Informações do produto</p>
-            <a href="#">Link do produto 2</a>
+            <a href="#produto2">Link do produto 2</a>
         </section>
 
         <section>
             <h3>Produto 3</h3>
             <p>Informações do produto</p>
-            <a href="#">Link produto 3</a>
+            <a href="#produto3">Link do produto 3</a>
+        </section>
+
+        <section>
+            <h3>Produto 4</h3>
+            <p>Informações do produto</p>
+            <a href="#produto4">Link do produto 4</a>
+        </section>
+
+        <section>
+            <h3>Produto 5</h3>
+            <p>Informações do produto</p>
+            <a href="#produto5">Link produto 5</a>
+        </section>
+        
+        <section>
+            <h3>Produto 6</h3>
+            <p>Informações do produtos</p>
+            <a href="#produto6">Link produto 6</a>
         </section><br><br>
+        </div>
 
         <footer>
             <p>&copy; 2024 XYZ. Todos os direitos reservados.</p>

@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(214, 214, 214);
+}
+
+:root{
+    --cor-primaria: #
+    --cor-secundaria: #
+}
+
+img{
+    width: 20rem;
+}
+
+.header{
+    width: 100vw;
+    height: 8rem;
+    background-color: rgb(186, 173, 153);
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+    box-shadow: 0 0.1rem 0.1rem #00000080;
+}
+
+#lupa{
+width: 1rem;
+}
+
+#procurar{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 16.8rem;
+    height: 1.3rem;
+    background-color: #ffffff;
+    color:white;
+    border-radius: 50px;
+    border: 2px;
+}
+
+.barrapesquisa label{
+    margin-bottom: 1px;
+}
+
+
+.barrapesquisa{
+    margin-right: 1rem;
+    margin-bottom: 0.4rem;
+    flex-flow: row;
+    
+}
+
+.cardsprodutos{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section{
+
+    width: 15.5rem;
+    height: 15.5rem;
+    background-color: rgb(225, 225, 225);
+    border-radius: 0.3rem ;
+    border: 2px solid rgb(228, 228, 228, 0.855);
+}
+
+footer{
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(186, 173, 153);
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    color: black;
+}
+
+footer a{
+    text-decoration:none;
+    color: black;
+}
+
