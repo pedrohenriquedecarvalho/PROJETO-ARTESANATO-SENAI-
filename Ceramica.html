@@ -1,44 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ceramica</title>
+    <link rel="stylesheet" href="ceramica.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <a href="loja.html"><img src="Imagens esquina do artesanato/fachada.jpg" width="4%"></a>
-            <p>Esquina do Artesanato</p>
+    <header>
+        <div class="cabecalho">
+            <img src="Imagens esquina do artesanato/Logo.png.png" alt="Logo Esquina do artesanato">
+            <h1>Esquina do artesanato</h1>
+            <form action="get">
+                <input type="search">
+            </form>
+            <a href="#carrinho"><img src="Imagens esquina do artesanato/carrinho de compras.png"></a>
         </div>
-        <a href="#carrinho"><img src="Imagens esquina do artesanato/carrinho de compras.png" width="10%"></a>
-    </nav>
+        <nav class="menu">
+            <ul>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/promoções.html">20% OFF</a></li>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/croche.html">Crochê</a></li>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/mdf.html">MDF</a></li>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/Ceramica.html">Cerâmica</a></li>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/vasos.html">Vasos</a></li>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/sinopse.html">Sobre nós</a></li>
+                <li><a href="../PROJETO-ARTESANATO-SENAI-/ajuda.html">Ajuda</a></li>
+                <li><a href="teladelogin.html">Login</a></li>
+            </ul>
+        </nav>
 
-    <div>
-        <a href="bowl.html"><div><img src="Imagens esquina do artesanato/Cerâmica/Bowl chines em ceramica.jpg" width="16%"></div></a>
-        <figcaption style="font-size: 150%;">Bowl Chines </figcaption>
-        <figcaption style="font-size: 200%;">R$45,00</figcaption>
+    </header>
+
+    <section>
         
-        <a href="bule.html"><div><img src="Imagens esquina do artesanato/Cerâmica/Bule em ceramica.jpg" width="20%"></div></a>
-        <figcaption style="font-size: 150%;">Bule vermelho</figcaption>
-        <figcaption style="font-size: 200%;">R$35,00</figcaption>
+        <article class="ceramica">
+            <a href="bowl.html"><img src="Imagens esquina do artesanato/Cerâmica/Bowl chines em ceramica.jpg" >
+            <p>Bowl Chines </p>
+            <p>R$45,00</p>
+            </a>
+        </article>
+        
+    <article  class="ceramica">
+        <a href="bule.html"><img src="Imagens esquina do artesanato/Cerâmica/Bule em ceramica.jpg"></a>
+        <p>Bule vermelho</p>
+        <p>R$35,00</p>
+    </article>
 
-        <a href="jarra.html"><div><img src="Imagens esquina do artesanato/Cerâmica/jarra em ceramica.jpg" width="20%"></div></a>
-        <figcaption style="font-size: 150%;">Jarra preta</figcaption>
-        <figcaption style="font-size: 200%;">R$28,00</figcaption>
+    <article  class="ceramica">
+        <a href="jarra.html"><img src="Imagens esquina do artesanato/Cerâmica/jarra em ceramica.jpg" >
+        <p>Jarra preta</p>
+        <p>R$28,00</p>
+        </a>
+    </article>
 
-        <a href="jogodepotes.html"><div><img src="Imagens esquina do artesanato/Cerâmica/jogo de potes em ceramica.jpg" width="20%"></div></a>
-        <figcaption style="font-size: 150%;">Jogo de potes</figcaption>
-        <figcaption style="font-size: 200%;">R$60,00</figcaption>
+    <article  class="ceramica">
+        <a href="jogodepotes.html"><img src="Imagens esquina do artesanato/Cerâmica/jogo de potes em ceramica.jpg" >
+        <p>Jogo de potes </p>
+        <p>R$60,00</p>
+        </a>
+    </article>
 
-        <a href="jogodejantar.html"><div><img src="Imagens esquina do artesanato/Cerâmica/Jogo de jantar em ceramica.jpg" width="20%"></div></a>
-        <figcaption style="font-size: 150%;">Jogo de jantar</figcaption>
-        <figcaption style="font-size: 200%;">R$75,00</figcaption>
+    <article  class="ceramica">
+        <a href="jogodejantar.html"><img src="Imagens esquina do artesanato/Cerâmica/Jogo de jantar em ceramica.jpg" >
+        <p>
+        <p>R$75,00</p>
+        </a>
+    </article>
 
-        <a href="jogodexicara.html"><div><img src="Imagens esquina do artesanato/Cerâmica/jogo de xicaram em ceramica.jpg" width="20%"></div></a>
-        <figcaption style="font-size: 150%;">Jogos de xícaras</figcaption>
-        <figcaption style="font-size: 200%;">R$39,80</figcaption>
+    <article  class="ceramica" id="xicara">
+        <a href="jogodexicara.html"><img src="Imagens esquina do artesanato/Cerâmica/jogo de xicaram em ceramica.jpg" >
+        <p>Jogos de xícaras</p>
+        <p>R$39,80</p>
+        </a>
+    </article>
       
-    </div>
+</section>
+<footer>
+    <h4>Localização</h4>
+    <p>Rua das Flores, 123 Bairro Jardim Encantado Cidade: Sumaré CEP: 30.000-000</p>
+
+    <h4>Redes sociais</h4>
+    <a href="#instagram">instagram.esquinaartesanato.com</a>
+
+    <h4>Contato</h4>
+    <p>Telefone: (19)97361-2538</p>
+    <p>E-mail: esquinadoartesanato@gmail.com</p>
+
+    <h4>Avaliação dos nosso clientes</h4>
+
+</footer>
 </body>
 </html>

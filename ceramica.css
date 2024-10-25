@@ -136,27 +136,27 @@ section {
     margin-top: 1rem;
 }
 
-.croche {
+.ceramica {
     margin: 1rem;
     width: 20%;
     height: 40vh;
 }
 
-.croche a{
+.ceramica a{
     width: 30%;
     height: 40vh;
     text-decoration: none;
     color: black;
 }
 
-.croche img{
+.ceramica img{
     width: 100%;
     height: 100%;
 }
 p{
     font-size: 1rem
 }
-#bolsa{
+#xicara{
     margin-right: 750px;
 }
 footer{
