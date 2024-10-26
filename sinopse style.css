@@ -11,9 +11,11 @@ body {
     box-sizing: border-box;
     height: 100vh;
     background-color: var(--fundo-do-site);
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 header {
@@ -126,6 +128,7 @@ header img {
     width: 2%;
     height: 2%;
 
+
 }
 
 /*Abaixo configurações do restante do site*/
@@ -179,3 +182,14 @@ footer {
 h4 {
     margin-top: 15px;
 }
+
+}
+footer{
+    
+    
+    flex-direction: column;
+    background-color: var(--cor-do-menu);
+    color: white;
+    text-align: center;
+}
+
