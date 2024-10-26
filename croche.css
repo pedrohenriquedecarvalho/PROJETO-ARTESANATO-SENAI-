@@ -136,22 +136,51 @@ section {
     margin-top: 1rem;
 }
 
+
+.croche {
+
 .kit {
+
     margin: 1rem;
     width: 20%;
     height: 40vh;
 }
 
+
+.croche a{
+
 .kit a{
+
     width: 30%;
     height: 40vh;
     text-decoration: none;
     color: black;
 }
 
+
+.croche img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: 1rem
+}
+#bolsa{
+    margin-right: 750px;
+}
+footer{
+    margin-top: 80px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: var(--cor--menu);
+    color: white;
+    text-align: center;
+}
+
 .kit img{
     width: 100%;
     height: 100%;
 }
+
 
 

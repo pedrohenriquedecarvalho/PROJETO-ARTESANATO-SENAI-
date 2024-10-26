@@ -156,3 +156,16 @@ section {
 p{
     font-size: 1rem
 }
+
+#xicara{
+    margin-right: 750px;
+}
+footer{
+    margin-top: 80px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: var(--cor--menu);
+    color: white;
+    text-align: center;
+}
+
