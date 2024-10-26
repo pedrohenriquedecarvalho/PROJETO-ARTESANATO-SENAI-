@@ -54,6 +54,8 @@ h1{
     padding-top: 40px;
     font-size: 1.3rem;
     padding-left: 30px;
+    
+
 
 }
 body {
@@ -169,4 +171,8 @@ header img {
 .carrinho{
     width: 2%;
     height: 2%;
+}
+section img{
+    width: 40%;
+    height: 60vh;
 }
