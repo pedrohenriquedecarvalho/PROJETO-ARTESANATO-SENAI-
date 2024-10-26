@@ -10,6 +10,10 @@
     --cor--primaria: #C3CCE3;
     --cor--menu: #101B39;
 }
+body{
+    background-color: var(--cor--primaria);
+}
+
 
 html {
     position: absolute;

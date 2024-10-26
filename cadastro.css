@@ -62,3 +62,6 @@ h3{
   
 
 }
+body{
+    background-color: var(--cor--primaria);
+}
