@@ -1,4 +1,179 @@
+
 .container{
    
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--cor--primaria);
+}
+
+header {
+    background-color: var(--cor--menu);
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 1rem 1rem var(--sombra-menu);
+}
+
+header img {
+    width: 30%;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cabecalho :nth-child(even) {
+    margin: 0 1rem;
+}
+
+.cabecalho img {
+    width: 10vh;
+}
+
+.cabecalho h1 {
+    font-family: Ruge Boogie, sans-serif;
+    font-weight: 100;
+}
+
+.cabecalho a {
+    width: 10%;
+}
+
+.cabecalho a img {
+    width: 100%;
+}
+
+.cabecalho form {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: 50%;
+    height: 2.5rem;
+}
+
+.cabecalho form input {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: var(--cor-do-menu);
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0.25rem;
+    padding: 0.7rem;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.menu img {
+    width: 5vw;
+    height: auto;
+}
+
+.menu h1 {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 0;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+}
+
+.carrinho {
+    width: 2%;
+    height: 2%;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.vaso {
+    margin: 1rem;
+    width: 20%;
+    height: 40vh;
+}
+
+.vaso a{
+    width: 30%;
+    height: 40vh;
+    text-decoration: none;
+    color: black;
+}
+
+.vaso img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: 1rem
+}
+footer{
+    margin-top: 80px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: var(--cor--menu);
+    color: white;
+    text-align: center;
+}
+#vaso{
+    margin-bottom: 90px;
+}
+#planta{
+    margin-right: 750px;
 }
 

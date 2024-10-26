@@ -11,6 +11,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    background-color: var(--fundo-do-site);
 }
 
 header {
@@ -119,4 +120,12 @@ header img {
 .carrinho{
     width: 2%;
     height: 2%;
+}
+footer{
+    
+    
+    flex-direction: column;
+    background-color: var(--cor-do-menu);
+    color: white;
+    text-align: center;
 }
