@@ -13,7 +13,6 @@ body {
     box-sizing: border-box;
     height: 100vh;
     background-color: var(--fundo-do-site);
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +28,7 @@ header {
     justify-content: space-between;
     border-radius: 0 0 1rem 1rem;
     box-shadow: 0 1rem 1rem var(--sombra-menu);
-    position: fixed;
+    
 }
 
 header img {
