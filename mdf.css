@@ -1,68 +1,22 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-:root{
---cor--terciaria:#8F9AB8;
---cor--segundaria:#56658E;
---cor--primaria:#C3CCE3;
---cor--menu:#101B39;
+
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
 }
 
-nav a{
-    flex-wrap: wrap;
-    background-color: var(--cor--menu);
-    color: rgb(255, 255, 255);
-    display: flex;
-    padding: 5px;
-    text-decoration: none;
-    width: 100%;
-  flex-wrap: wrap;
-  flex-direction: row;
-  
-   
-
-}
-html{
-    background-color: var(--cor--primaria)
-    
-}
-footer{
-    margin-top: 80px;
-    padding: 60px;
-    flex-direction: column;
-    background-color: var(--cor--menu);
-    color: white;
-    text-align: center;
- 
-   
-}
-.tapete {
-    display: flex;
-    margin-left: 30px;
-    
-}
-h1{
-    text-align: center;
-}
-.descricao{
-    padding-top: 100px;
-    font-size: 1.3rem;
-}
-.valor{
-    padding-top: 40px;
-    font-size: 1.3rem;
-    padding-left: 30px;
-    
-
-
-}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    background-color: var(--cor--primaria);
 }
 
 header {
@@ -90,35 +44,35 @@ header img {
     color: white;
 }
 
-.cabecalho :nth-child(even){
+.cabecalho :nth-child(even) {
     margin: 0 1rem;
 }
 
-.cabecalho img{
+.cabecalho img {
     width: 10vh;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     font-family: Ruge Boogie, sans-serif;
     font-weight: 100;
 }
 
-.cabecalho a{
+.cabecalho a {
     width: 10%;
 }
 
-.cabecalho a img{
+.cabecalho a img {
     width: 100%;
 }
 
-.cabecalho form{
+.cabecalho form {
     margin-left: 4rem;
     margin-right: 4rem;
     width: 50%;
     height: 2.5rem;
 }
 
-.cabecalho form input{
+.cabecalho form input {
     width: 100%;
     height: 100%;
 }
@@ -168,11 +122,48 @@ header img {
     height: 2rem;
 }
 
-.carrinho{
+.carrinho {
     width: 2%;
     height: 2%;
 }
-section img{
-    width: 40%;
-    height: 60vh;
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.mdf {
+    margin: 1rem;
+    width: 20%;
+    height: 40vh;
+}
+
+.mdf a{
+    width: 30%;
+    height: 40vh;
+    text-decoration: none;
+    color: black;
+}
+
+.mdf img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: 1rem
+}
+#placa{
+    margin-right: 750px;
+}
+footer{
+    margin-top: 80px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: var(--cor--menu);
+    color: white;
+    text-align: center;
 }
