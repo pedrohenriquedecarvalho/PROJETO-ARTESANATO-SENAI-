@@ -134,6 +134,7 @@ section {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 1rem;
+    
 }
 
 .croche {
@@ -165,6 +166,8 @@ footer{
     text-align: center;
 }
 
+#bolsa{margin-top: 40px;
 
+}
 
 
