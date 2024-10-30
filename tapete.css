@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -23,6 +24,20 @@ body {
     height: 100vh;
 }
 
+header {
+    background-color: var(--cor-do-menu);
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 1rem 1rem var(--sombra-menu);
+}
+
+header img {
+    width: 30%;
+}
 
 .cabecalho {
     width: 100%;
@@ -35,7 +50,7 @@ body {
 }
 
 
-/*titulo*/
+/* titulo */
 .cabecalho :nth-child(even) {
     margin: 0 1rem;
 }
@@ -46,7 +61,7 @@ body {
     font-weight: 100;
 }
 
-/*carrinho*/
+/* carrinho */
 .cabecalho a {
     width: 10%;
 }
@@ -55,6 +70,7 @@ body {
     width: 70%;
     border-radius: 50%;
     margin-top: 10px;
+    
 }
 
 .carrinho {
@@ -62,22 +78,23 @@ body {
     height: 2%;
 }
 
-/*carrinho*/
+/* carrinho */
 
 h1 {
     text-align: center;
 }
 
-/*logo*/
+/* logo */
 .cabecalho img {
     width: 10vh;
+    
 }
 
 header img {
     width: 30%;
 }
 
-/*barra de pesquisa*/
+/* barra de pesquisa */
 .cabecalho form {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -92,7 +109,7 @@ header img {
 
 
 section{
-    margin-bottom: 500px;
+    margin-bottom: 400px;
 }
 
 .menu {
@@ -166,9 +183,14 @@ nav a {
     margin-left: 30px;
     height: 350px;
     margin-top: 40px;
-
+    width: 1200px;
 }
 
+.foto{
+    width: 30%;
+    border: 1px #101B39 solid; 
+    border-radius: 10px;
+}
 
 .valor2{
     padding-top: 230px;
@@ -202,7 +224,7 @@ header {
 
 
 footer {
-    margin-top: 80px;
+    margin-top: 40px;
     padding: 60px;
     flex-direction: column;
     background-color: var(--cor--menu);
@@ -215,7 +237,7 @@ a:hover{
 }
 
 .descricao h1{
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 1.3rem;
     margin-left: -180px;
     max-width: 580px;
@@ -225,13 +247,13 @@ a:hover{
 
 .btn_ac{
     margin-top: 290px;
-    margin-left: 490px;
+    margin-left: 295px;
     width: 100px;
     height: 50px;
     background-color: #8F9AB8;
     box-shadow: 7px 7px 7px rgba(25, 6, 94, 0.3);;
     border-radius: 5%;
-    border: 2px #101B39 solid;
+    border: 1.5px #101B39 solid;
 }
 
 .btn_comprar{
@@ -242,11 +264,39 @@ a:hover{
     background-color: #8F9AB8;
     box-shadow: 7px 7px 7px rgba(25, 6, 94, 0.3);;
     border-radius: 5%;
-    border: 2px #101B39 solid;
+    border: 1.5px #101B39 solid;
 }
 
 button a{
     color: black;
     text-decoration: none;
+}
+
+.container{
+    margin-top: 320px;
+    margin-left: -630px;
+    margin-right: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.checked{
+    color: #1e3a8d;
+}
+
+
+h2{
+    display: inline-flex;
+    font-size: 15px;
+    margin-right: 7px;
+    font-weight: normal;
+}
+
+.instagram{
+    color: white;
+    text-decoration: none;
+}
+
+.instagram:hover{
+    color: #56658E;
 }
 
