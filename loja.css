@@ -1,3 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+--cor--terciaria:#8F9AB8;
+--cor--segundaria:#56658E;
+--cor--primaria:#C3CCE3;
+--cor--menu:#101B39;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -24,4 +36,13 @@ header{
 .cabecalho img{
     width: 50%;
     height: 70%;
+}
+
+.instagram{
+    color: white;
+    text-decoration: none;
+}
+
+.instagram:hover{
+    color: #56658E;
 }

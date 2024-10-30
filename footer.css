@@ -1,0 +1,18 @@
+/* cores */
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: var(--cor--menu);
+    color: white;
+    text-align: center;
+}
+

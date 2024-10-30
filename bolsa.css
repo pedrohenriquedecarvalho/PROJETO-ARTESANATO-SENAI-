@@ -1,60 +1,65 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-:root{
---cor--terciaria:#8F9AB8;
---cor--segundaria:#56658E;
---cor--primaria:#C3CCE3;
---cor--menu:#101B39;
+
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
 }
 
-nav a{
- 
+section {
+    margin-bottom: 400px;
+}
+
+nav a {
     flex-wrap: wrap;
     background-color: var(--cor--menu);
     color: rgb(255, 255, 255);
     display: flex;
-   
+    padding: 5px;
     text-decoration: none;
     width: 100%;
- 
- 
-   
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
-}
-html{
+html {
     background-color: var(--cor--primaria)
-    
 }
-footer{
+
+footer {
     margin-top: 80px;
     padding: 60px;
     flex-direction: column;
     background-color: var(--cor--menu);
     color: white;
     text-align: center;
- 
-   
 }
+
+
 .bolsa {
-display: flex;
-margin-left: 30px;
+    display: flex;
+    margin-left: 30px;
 }
-h1{
+
+
+h1 {
     text-align: center;
 }
-.descricao{
-    padding-top: 100px;
-    font-size: 1.3rem;
-}
-.valor{
-    padding-top: 40px;
-    font-size: 1.3rem;
-        
 
+
+.descricao {
+    padding-top: -30px;
+    font-size: 1.3rem;
+    margin-left: 50px;
+    max-width: 580px;
+    color: #101B39;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -69,12 +74,13 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 0 0 1rem 1rem;
     box-shadow: 0 1rem 1rem var(--sombra-menu);
 }
 
 header img {
     width: 30%;
+    width: 10vh;
+    /* logo */
 }
 
 .cabecalho {
@@ -87,35 +93,36 @@ header img {
     color: white;
 }
 
-.cabecalho :nth-child(even){
+.cabecalho :nth-child(even) {
     margin: 0 1rem;
 }
 
-.cabecalho img{
-    width: 10vh;
-}
 
-.cabecalho h1{
+.cabecalho h1 {
     font-family: Ruge Boogie, sans-serif;
     font-weight: 100;
 }
 
-.cabecalho a{
+.cabecalho a {
     width: 10%;
+    /* carrinho */
 }
 
-.cabecalho a img{
-    width: 100%;
+.cabecalho a img {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 10px;
+    /* carrinho */
 }
 
-.cabecalho form{
+.cabecalho form {
     margin-left: 4rem;
     margin-right: 4rem;
     width: 50%;
     height: 2.5rem;
 }
 
-.cabecalho form input{
+.cabecalho form input {
     width: 100%;
     height: 100%;
 }
@@ -165,7 +172,116 @@ header img {
     height: 2rem;
 }
 
-.carrinho{
+.carrinho {
     width: 2%;
     height: 2%;
+}
+
+.foto{
+    margin-top: 40px;
+    width: 30%;
+    border: 1px #101B39 solid; 
+    border-radius: 10px;
+}
+
+
+.valor2 {
+    padding-top: 275px;
+    margin-left: -580px;
+    font-size: 20px;
+    color: #101B39;
+    text-decoration: line-through;
+}
+
+
+.valor {
+    padding-top: 290px;
+    margin-left: -76px;
+    font-size: 50px;
+    color: #101B39;
+
+}
+
+header {
+    background-color: var(--cor--menu);
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1rem 1rem var(--sombra-menu);
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: var(--cor--menu);
+    color: white;
+    text-align: center;
+}
+
+a:hover {
+    color: #56658E;
+}
+
+.descricao h1{
+    padding-top: 90px;
+    font-size: 1.3rem;
+    margin-left: -217px;
+    max-width: 580px;
+    margin-bottom: 10px;
+    color: #101B39;
+}
+
+.btn_ac {
+    margin-top: 330px;
+    margin-left: 295px;
+    width: 100px;
+    height: 50px;
+    background-color: #8F9AB8;
+    box-shadow: 7px 7px 7px rgba(25, 6, 94, 0.3);
+    border-radius: 5%;
+    border: 1.5px #101B39 solid;
+}
+
+.btn_comprar {
+    margin-top: 330px;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: #8F9AB8;
+    box-shadow: 7px 7px 7px rgba(25, 6, 94, 0.3);
+    ;
+    border-radius: 5%;
+    border: 1.5px #101B39 solid;
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 370px;
+    margin-left: -630px;
+    margin-right: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.checked {
+    color: #1e3a8d;
+}
+
+h2 {
+    display: inline-flex;
+    font-size: 15px;
+    margin-right: 7px;
+    font-weight: normal;
+}
+
+.instagram{
+    color: white;
+    text-decoration: none;
 }
