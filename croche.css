@@ -10,13 +10,18 @@
     --cor--primaria: #C3CCE3;
     --cor--menu: #101B39;
 }
-
+/* menu */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
-    background-color: var(--cor--primaria);
+    background-color: var(--fundo-do-site);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 header {
@@ -27,7 +32,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 1rem 1rem var(--sombra-menu);
+    box-shadow: 0 0.5rem 0.5rem var(--sombra-menu);
 }
 
 header img {
@@ -59,10 +64,12 @@ header img {
 
 .cabecalho a {
     width: 10%;
+
 }
 
 .cabecalho a img {
-    width: 100%;
+    width: 50%;
+    border-radius: 50%;
 }
 
 .cabecalho form {
@@ -74,7 +81,8 @@ header img {
 
 .cabecalho form input {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    color: black;
 }
 
 .menu {
@@ -125,7 +133,9 @@ header img {
 .carrinho {
     width: 2%;
     height: 2%;
+
 }
+/* configuração do site */
 
 section {
     width: 100%;
@@ -168,6 +178,9 @@ footer{
 
 #bolsa{margin-top: 40px;
 
+}
+p{
+    color: black;
 }
 
 

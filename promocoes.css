@@ -8,8 +8,9 @@
 --cor--segundaria:#56658E;
 --cor--primaria:#C3CCE3;
 --cor--menu:#101B39;
+--sombra-menu: #2C3B63;
 }
-
+/* configurações do site */
 nav a{
     flex-wrap: wrap;
     background-color: var(--cor--menu);
@@ -46,11 +47,18 @@ section{
    margin-left: 10px;
    
 }
+/* menu */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    background-color: var(--fundo-do-site);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 header {
@@ -61,7 +69,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 1rem 1rem var(--sombra-menu);
+    box-shadow: 0 0.5rem 0.5rem var(--sombra-menu);
 }
 
 header img {
@@ -78,37 +86,40 @@ header img {
     color: white;
 }
 
-.cabecalho :nth-child(even){
+.cabecalho :nth-child(even) {
     margin: 0 1rem;
 }
 
-.cabecalho img{
+.cabecalho img {
     width: 10vh;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     font-family: Ruge Boogie, sans-serif;
     font-weight: 100;
 }
 
-.cabecalho a{
+.cabecalho a {
     width: 10%;
+
 }
 
-.cabecalho a img{
-    width: 100%;
+.cabecalho a img {
+    width: 50%;
+    border-radius: 50%;
 }
 
-.cabecalho form{
+.cabecalho form {
     margin-left: 4rem;
     margin-right: 4rem;
     width: 50%;
     height: 2.5rem;
 }
 
-.cabecalho form input{
+.cabecalho form input {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    color: black;
 }
 
 .menu {
@@ -156,10 +167,13 @@ header img {
     height: 2rem;
 }
 
-.carrinho{
+.carrinho {
     width: 2%;
     height: 2%;
+
+
 }
+/* configurações do site */
 .promo {
     margin: 1rem;
     width: 20%;
@@ -177,3 +191,5 @@ header img {
     width: 100%;
     height: 100%;
 }
+
+

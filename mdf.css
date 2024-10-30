@@ -134,6 +134,7 @@ section {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 1rem;
+    
 }
 
 .mdf {
@@ -154,10 +155,12 @@ section {
     height: 100%;
 }
 p{
-    font-size: 1rem
+    font-size: 1rem;
+    color: black;
 }
 #placa{
     margin-right: 750px;
+   ;
 }
 footer{
     margin-top: 80px;
