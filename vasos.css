@@ -127,6 +127,7 @@ header img {
     width: 2%;
     height: 2%;
 }
+
 /* configuração do site */
 section {
     width: 100%;
@@ -143,21 +144,23 @@ section {
     height: 40vh;
 }
 
-.vaso a{
+.vaso a {
     width: 30%;
     height: 40vh;
     text-decoration: none;
     color: black;
 }
 
-.vaso img{
+.vaso img {
     width: 100%;
     height: 100%;
 }
-p{
+
+p {
     font-size: 1rem
 }
-footer{
+
+footer {
     margin-top: 80px;
     padding: 60px;
     flex-direction: column;
@@ -165,9 +168,11 @@ footer{
     color: white;
     text-align: center;
 }
-#vaso{
+
+#vaso {
     margin-bottom: 90px;
 }
-#planta{
+
+#planta {
     margin-right: 750px;
 }
