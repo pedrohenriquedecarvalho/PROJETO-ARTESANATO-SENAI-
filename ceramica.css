@@ -133,7 +133,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 1rem;
+   
 }
 
 .ceramica {
@@ -159,7 +159,7 @@ p{
 
 #xicara{
     margin-right: 750px;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 footer{
     margin-top: 80px;
@@ -170,7 +170,7 @@ footer{
     text-align: center;
 }
 #jogo{
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 p{
     color: black;

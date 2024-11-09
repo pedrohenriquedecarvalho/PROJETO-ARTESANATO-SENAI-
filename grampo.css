@@ -45,6 +45,7 @@ footer{
 }
 h1{
     text-align: center;
+    color: black;
 }
 .descricao{
     padding-top: 100px;
@@ -185,6 +186,7 @@ section img{
   
     h1{
         margin-top: 60px;
+        
     }
     footer{
         font-family: Arial, Helvetica, sans-serif;
