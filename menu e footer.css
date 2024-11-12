@@ -129,8 +129,6 @@ header img {
 .carrinho {
     width: 2%;
     height: 2%;
-
-
 }
 
 
@@ -151,8 +149,6 @@ h4 {
 }
 
 footer{
-    
-    
     flex-direction: column;
     background-color: var(--cor-do-menu);
     color: white;

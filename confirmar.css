@@ -1,0 +1,24 @@
+:root {
+    --cor-do-menu: #101B39;
+    --fundo-do-site: #C3CCE3;
+    --sombra-menu: #2C3B63;
+    --cor-link: #8F9AB8;
+}
+
+.texto h1 {
+    color: #101B39;
+}
+
+.texto{
+    margin-top: 300px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+footer{
+    margin-top: 500px;
+}
+
+h4:hover{
+color: #2C3B63;
+}
