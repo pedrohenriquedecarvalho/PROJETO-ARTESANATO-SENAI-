@@ -4,46 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Login</title>
-  
-
     <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-
     <section class="login">
-    
-     
-            
-                <h1>LOGIN</h1>
+        <h1>LOGIN</h1>
+        <p>Para continuar acessando nossos produtos e ofertas, preencha os campos a seguir:</p>
 
-                <p>Para continuar acessando nossos produtos e ofertas, preencha os campos a seguir:</p>
+        <form action="confirmar.html" method="get">
+            <h3 class="E-mail">E-mail</h3>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="   E-mail*" required>
 
-                <form action="confirmar.html" method="get">
+            <h3 class="senha">Senha</h3>
+            <label for="senha" class="senha"></label>
+            <input type="password" name="senha" id="senha" placeholder="   Senha*" required>
 
-                <h3>E-mail</h3>
+            <p class="termos">Ao continuar, afirmo que concordo com a</p>
+            <p class="termo">Política de privacidade e os Termos de uso da Loja da Esquina.</p>
 
-                <label for="email"></label>
+            <input type="submit" value="Enviar >" id="enviar">
 
-                <input type="email" name="email" id="email" placeholder="E-mail">
+           <a href="cadastro.html">Cadastre-se</a>
 
-                <h3>senha</h3>
 
-                <label for="senha" class="senha"></label>
-
-                <input type="password" name="senha" id="senha" placeholder="Senha">
-
-                <input type="submit" value="Enviar" id="enviar">
-            
-            
-                <article><label for="cadastro"><a href="cadastro.html"  class="cadastro" >cadastro</a></label></article>
-            
-
-            
-    </section>
         </form>
+
+    </section>
+
 </body>
 
 </html>
