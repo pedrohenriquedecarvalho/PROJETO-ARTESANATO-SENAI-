@@ -3,6 +3,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 250px 80px 100px auto;
+    flex-wrap: wrap;
+    background-color: var(--cor--primaria);
+}
+
+button {
+    width: 300px;
+    height: 350px;
+    background-color: transparent;
+    border: white, solid, 2px;
+    padding: 2pxpx;
+    margin: 35px;
+    cursor: pointer;
+}
+
+.foto {
+    width: 250px;
+    height: auto;
+}
+
+button h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.preco {
+    color: yellow;
+    font-size: xx-large;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 :root {
     --cor--terciaria: #8F9AB8;
@@ -183,4 +247,4 @@ footer{
 }
 
 
-
+ */
