@@ -154,3 +154,9 @@ footer{
     color: white;
     text-align: center; 
 }
+
+.instagram{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
