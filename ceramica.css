@@ -69,3 +69,12 @@ button p {
     display: flex;
     justify-content: center;
 }
+
+a:hover {
+    color: #56658E;
+}
+
+.instagram{
+    text-decoration: underline;
+    cursor: pointer;
+}
