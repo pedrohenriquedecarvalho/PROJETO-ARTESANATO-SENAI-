@@ -27,22 +27,25 @@ section {
 
 
 
-button {
+article {
     width: 350px;
     height: 450px;
     background-color: transparent;
     border: #101B39, solid, 2px;
     padding: 20px;
     margin: 10px;
-    cursor: pointer;
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
-.foto {
+article .foto {
+    margin: 0;
     width: 200px;
     height: auto;
 }
@@ -78,4 +81,12 @@ button p {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+}
+
+a:hover{
+    color: #56658E;
+}
+
+.instagram{
+    text-decoration: underline;
 }
