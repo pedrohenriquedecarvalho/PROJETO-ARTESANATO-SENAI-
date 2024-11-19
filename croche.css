@@ -174,13 +174,15 @@ footer{
     background-color: var(--cor--menu);
     color: white;
     text-align: center;
+   
+}
+footer p {
+        color: white;
 }
 
 #bolsa{margin-top: 40px;
 
 }
-p{
-    color: black;
-}
+
 
 

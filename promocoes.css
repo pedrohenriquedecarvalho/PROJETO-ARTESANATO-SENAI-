@@ -11,6 +11,11 @@
 --sombra-menu: #2C3B63;
 }
 /* configurações do site */
+h1{
+    margin-bottom:30px ;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
 nav a{
     flex-wrap: wrap;
     background-color: var(--cor--menu);
@@ -45,6 +50,7 @@ section{
    display: flex;
    justify-content: space-between;
    margin-left: 10px;
+  
    
 }
 /* menu */
