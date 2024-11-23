@@ -27,9 +27,10 @@ body{
 .ajuda{
     padding: 30px;
     background-color: #F0F8FF;
-    max-width: 400px;
+    width: 27%;
     border-radius: 10px;
-    margin-left: 530px;
+    justify-self: center;
+    margin: 0.5rem;
 }
 
 li{
