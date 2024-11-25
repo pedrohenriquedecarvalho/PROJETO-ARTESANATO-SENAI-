@@ -1,0 +1,36 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 2rem 1rem;
+}
+
+.conteudo article {
+    color: white;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo article textArticle{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.conteudo article img {
+    width: 50%;
+    height: 100%;
+}
+
+ul :hover {
+    color: var(--cor-link);
+}
+
+
+
