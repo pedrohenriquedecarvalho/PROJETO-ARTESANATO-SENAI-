@@ -1,3 +1,11 @@
+:root{
+    --cor--terciaria:#8F9AB8;
+    --cor--segundaria:#56658E;
+    --cor--primaria:#C3CCE3;
+    --cor--menu:#101B39;
+    --sombra-menu: #2C3B63;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -175,4 +183,12 @@ footer {
 
 #planta {
     margin-right: 750px;
+}
+
+li a:hover{
+    color: #56658E;
+}
+
+.instagram:hover{
+    color: #56658E;
 }

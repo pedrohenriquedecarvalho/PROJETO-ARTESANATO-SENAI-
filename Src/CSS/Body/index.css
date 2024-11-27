@@ -1,3 +1,11 @@
+:root {
+    --cor--terciaria:#8F9AB8;
+    --cor--segundaria:#56658E;
+    --cor--primaria:#C3CCE3;
+    --cor--menu:#101B39;
+    --sombra-menu: #2C3B63;
+}
+
 .conteudo {
     display: flex;
     justify-content: center;
@@ -27,9 +35,12 @@
     height: 100%;
 }
 
-ul :hover {
-    color: var(--cor-link);
+li a:hover{
+    color: #56658E;
 }
 
+.instagram:hover{
+    color: #56658E;
+}
 
 

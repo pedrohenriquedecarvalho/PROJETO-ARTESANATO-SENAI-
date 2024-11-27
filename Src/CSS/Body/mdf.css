@@ -1,8 +1,10 @@
-
-/*     display: flex;    
-    justify-content: center; 
-    flex-direction: row;
-*/
+:root {
+    --cor--terciaria:#8F9AB8;
+    --cor--segundaria:#56658E;
+    --cor--primaria:#C3CCE3;
+    --cor--menu:#101B39;
+    --sombra-menu: #2C3B63;
+}
 
 * {
     margin: 0;
@@ -47,6 +49,7 @@ a {
     height: auto;
     display: flex;
     justify-content: center;
+    margin-left: 50px;
 }
 
 article p {
@@ -82,7 +85,11 @@ article p {
     justify-content: center;
 }
 
-a:hover{
+li a:hover{
+    color: #56658E;
+}
+
+.instagram:hover{
     color: #56658E;
 }
 
