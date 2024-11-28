@@ -1,16 +1,16 @@
 :root {
-    --cor--terciaria:#8F9AB8;
-    --cor--segundaria:#56658E;
-    --cor--primaria:#C3CCE3;
-    --cor--menu:#101B39;
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
     --sombra-menu: #2C3B63;
 }
 
-li a:hover{
+li a:hover {
     color: #56658E;
 }
 
-.instagram:hover{
+.instagram:hover {
     color: #56658E;
 }
 
@@ -18,53 +18,51 @@ h1{
     text-align: center;
 }
 
-
-.t{
+.t {
     color: black;
     margin-top: 60px;
 }
 
-.tudo{
+.tudo {
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.um{
-    padding: 30px;
-    max-width: 400px;
-    border-radius: 10px;
-    margin-top: 20px;
-    border: 1px #101B39 solid;
-}
-
-.dois{
-    padding: 40px;
-    max-width: 290px;
-    border-radius: 10px;
-    margin-top: 20px;
-    border: 1px #101B39 solid;
-    margin-top: -223px;
-    margin-left: 890px;
-}
-
-.tres{
-    padding: 52px;
-    max-width: 400px;
-    border-radius: 10px;
-    margin-top: 20px;
-    border: 1px #101B39 solid;
-    margin-top: -223px;
-    margin-left: 500px;
-    max-width: 250px;
-}
-
-
-
-li{
-    list-style-type: none;
+section li {
+    margin-top: 10px;
     font-size: 20px;
     color: black;
+    max-width: 400px;
 }
 
-footer{
+section p {
+    margin-top: 5px;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.container {
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #9d9e9f;   
+    max-width: 400px;
+    margin: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
     margin-top: 150px;
+}
+
+i{
+    color: black;
 }
