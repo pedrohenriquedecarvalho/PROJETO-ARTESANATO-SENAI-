@@ -24,13 +24,15 @@
     align-items: center;
 }
 
-.conteudo article textArticle{
+.textArticle{
+    margin-top: -10rem;
     display: flex;
     flex-direction: column;
     z-index: 1;
 }
 
 .conteudo article img {
+    margin-top: -0.4rem;
     width: 50%;
     height: 100%;
 }
