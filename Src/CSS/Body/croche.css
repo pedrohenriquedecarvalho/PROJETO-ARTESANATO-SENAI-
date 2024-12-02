@@ -1,0 +1,112 @@
+
+/* % para tamanho de divisões
+vh e vw para trabalhar com o tamanho da tela
+rem para letras e margens */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px 8px 100px auto;
+    flex-wrap: wrap;
+
+}
+
+article {
+    width: 350px;
+    height: 450px;
+    background-color: transparent;
+    border: #101B39, solid, 2px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.botao{
+    margin-top: 10px;
+    padding: 1rem;
+    background-color: #101B39;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.botoes{
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foto {
+    width: 200px;
+    height: auto;
+    border-radius: 50px;
+}
+
+article p {
+    color: white;
+}
+
+.descricao {
+    font-size: xx-large;
+    color: #101B39;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.preco2 {
+    text-decoration: line-through;
+    color: #101B39;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.preco {
+    color: #101B39;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#grampo{
+    margin-top: 1.5rem;
+}
+
+#bolsa{
+margin-top: 1rem;
+}
+
+li a:hover {
+    color: #56658E;
+}
+
+.instagram:hover {
+    color: #56658E;
+}
+
+.instagram {
+    text-decoration: underline;
+}

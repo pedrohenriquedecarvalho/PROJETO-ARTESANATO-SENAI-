@@ -1,0 +1,68 @@
+:root {
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
+    --sombra-menu: #2C3B63;
+}
+
+li a:hover {
+    color: #56658E;
+}
+
+.instagram:hover {
+    color: #56658E;
+}
+
+h1{
+    text-align: center;
+}
+
+.t {
+    color: black;
+    margin-top: 60px;
+}
+
+.tudo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section li {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    max-width: 400px;
+}
+
+section p {
+    margin-top: 5px;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.container {
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #9d9e9f;   
+    max-width: 400px;
+    margin: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+i{
+    color: black;
+}

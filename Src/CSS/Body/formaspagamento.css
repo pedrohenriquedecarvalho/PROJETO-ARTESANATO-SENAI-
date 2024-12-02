@@ -1,0 +1,39 @@
+:root {
+    --cor-do-menu: #101B39;
+    --fundo-do-site: #C3CCE3;
+    --sombra-menu: #2C3B63;
+    --cor-link: #8F9AB8;
+}
+
+footer{
+    margin-top: 90px;
+}
+
+.fp{
+    margin-top: 130px;
+    background-color: aqua;
+    margin-left: 50px;
+    max-width: 400px;
+    font-size: x-large;
+}
+
+li a:hover{
+    color: #56658E;
+}
+
+.instagram:hover{
+    color: #56658E;
+}
+
+.pagamento{
+    margin-top: 30px;
+    width: 600px;
+    height: 900px;
+    margin-left: 330px;
+}
+
+.texto{
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
