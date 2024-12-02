@@ -78,6 +78,25 @@ header img {
     color: black;
 }
 
+
+.cabecalho span {
+    position: relative;
+}
+
+.cabecalho span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #56658E;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: 100px;
+}
+
 .menu {
     background-color: var(--cor-do-menu);
     width: 100%;
