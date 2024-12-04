@@ -17,10 +17,10 @@
 <body>
     <header>
         <div class="cabecalho">
-            <a href="/index.html" type="button"><img src="/Imagens esquina do artesanato/Imagens restantes/Logo.png.png" alt="Logo Esquina do artesanato"  id="logo"></a>          
-              <h1>Esquina do artesanato</h1>
+            <img src="/Imagens esquina do artesanato/Imagens restantes/Logo.png.png" alt="Logo Esquina do artesanato">
+            <h1>Esquina do artesanato</h1>
             <form action="get">
-                <input type="search" placeholder="     pesquise produtos...">
+                <input type="search" placeholder="     pesquise produtos..." id="search">
             </form>
 
             <button class="carrinho">
@@ -29,7 +29,7 @@
                 </a>
             </button>
         </div>
-        
+
         <nav class="menu">
             <ul>
                 <li><a href="./promoções.html">20% OFF</a></li>
@@ -44,22 +44,19 @@
         </nav>
     </header>
 
-    <section class="conteudo">
-        <article>
-            <nav class="itensCarrinho">
-                <ul>
-                    <li><a href="#">Item 1</a></li>
-                    <li><a href="#">Item 2</a></li>
-                    <li><a href="#">Item 3</a></li>
-                    <li><a href="#">Item 4</a></li>
-                    <li><a href="#">Item 5</a></li>
-                    <li><a href="#">Item 6</a></li>
-                    <li><a href="#">Item 7</a></li>
-                    <li><a href="#">Item 8</a></li>
-                </ul>
-            </nav>
-        </article>
-
+    <section id="conteudoCarrinho">
+        <table class="itens">
+            <thead>
+                <tr>
+                    <th class="item">Item</th>
+                    <th class="preco">Preço</th>
+                    <th class="quantidade">Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <p class="total">Total: R$ 00,00</p>
     </section>
 
 
@@ -74,6 +71,8 @@
         <p>Telefone: (19)97361-2538</p>
         <p>E-mail: esquinadoartesanato@gmail.com</p>
     </footer>
+
+    <script src="../../JS/carrinho.js"></script>
 
 </body>
 

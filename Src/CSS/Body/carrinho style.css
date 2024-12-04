@@ -1,177 +1,266 @@
 :root {
-    --cor--terciaria:#8F9AB8;
-    --cor--segundaria:#56658E;
-    --cor--primaria:#C3CCE3;
-    --cor--menu:#101B39;
-    --sombra-menu: #2C3B63;
+  --cor--terciaria: #8f9ab8;
+  --cor--segundaria: #56658e;
+  --cor--primaria: #c3cce3;
+  --cor--menu: #101b39;
+  --sombra-menu: #2c3b63;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100vh;
-    background-color: var(--fundo-do-site);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: var(--fundo-do-site);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
-    background-color: var(--cor-do-menu);
-    width: 100vw;
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 1rem 1rem var(--sombra-menu);
+  background-color: var(--cor-do-menu);
+  width: 100vw;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 1rem 1rem var(--sombra-menu);
 }
 
 header img {
-    width: 30%;
+  width: 30%;
 }
 
 .cabecalho {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .cabecalho :nth-child(even) {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .cabecalho img {
-    width: 10vh;
+  width: 10vh;
 }
 
 .cabecalho h1 {
-    font-family: Ruge Boogie, sans-serif;
-    font-weight: 100;
+  font-family: Ruge Boogie, sans-serif;
+  font-weight: 100;
 }
 
 .cabecalho a {
-    width: 10%;
-
+  width: 10%;
 }
 
 .cabecalho a img {
-    width: 50%;
-    border-radius: 50%;
+  width: 50%;
+  border-radius: 50%;
 }
 
 .cabecalho form {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    width: 50%;
-    height: 2.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  width: 50%;
+  height: 2.5rem;
 }
 
 .cabecalho form input {
-    width: 100%;
-    height: 80%;
-    color: black;
-}
-
-
-.cabecalho span {
-    position: relative;
+  width: 100%;
+  height: 80%;
+  color: black;
 }
 
 .cabecalho span {
-    display: flex;
-    width: 30px;
-    height: 30px;
-    background-color: #56658E;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    right: 100px;
+  position: relative;
+}
+
+.cabecalho span {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: #56658e;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 100px;
 }
 
 .menu {
-    background-color: var(--cor-do-menu);
-    width: 100%;
-    height: auto;
-    justify-content: center;
+  background-color: var(--cor-do-menu);
+  width: 100%;
+  height: auto;
+  justify-content: center;
 }
 
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu li {
-    margin: 0.25rem;
-    padding: 0.7rem;
+  margin: 0.25rem;
+  padding: 0.7rem;
 }
 
 .menu a {
-    color: white;
-    text-decoration: none;
-    padding: 0.7rem;
-    font-size: 1rem;
-    cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .menu img {
-    width: 5vw;
-    height: auto;
+  width: 5vw;
+  height: auto;
 }
 
 .menu h1 {
-    font-size: 1.2rem;
-    margin: 0 1rem;
-    padding: 0;
-    color: white;
-    width: 4rem;
-    height: 2rem;
-}
-
-.carrinho {
-    width: 2%;
-    height: 2%;
-
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  padding: 0;
+  color: white;
+  width: 4rem;
+  height: 2rem;
 }
 
 /*Abaixo configurações do restante do site*/
+#conteudoCarrinho {
+  width: 80%;
+  margin: 40px 0;
+}
 
+#conteudoCarrinho p {
+  font-size: 1.5rem;
+  text-align: right;
+  font-weight: bold;
+  color: var(--cor--menu);
+  margin-top: 1rem;
+}
 
+.itens {
+  width: 100%;
+  height: 60%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--cor--segundaria);
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.itens thead {
+  background-color: var(--cor--menu);
+}
+
+.itens thead th:first-child {
+  border-top-left-radius: 2rem;
+}
+
+.itens thead th:last-child {
+  border-top-right-radius: 2rem;
+}
+
+.itens th,
+.itens td {
+  padding: 10px;
+  border: 1px solid var(--cor--segundaria);
+}
+
+.itens tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 2rem;
+}
+
+.itens tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 2rem;
+}
+
+.fotoProduto {
+  display: flex;
+  align-items: center;
+}
+
+.fotoProduto img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5px;
+}
+
+.fotoProduto p {
+  margin: 0;
+  font-weight: bold;
+  color: var(--cor--menu);
+  margin-left: 1rem;
+}
+
+.precoProduto {
+  color: var(--cor--menu);
+  font-weight: bold;
+  text-align: center;
+}
+
+.quantidade {
+  text-align: center;
+}
+
+.numItens {
+  width: 5rem;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  color: var(--cor--menu);
+  border: 1px solid var(--cor--segundaria);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.botaoRemove {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
 
 /* Abaixo configurações do footer */
 
 * {
-    margin: 0;
-    color: #ffffff;
+  margin: 0;
+  color: #ffffff;
 }
 
 footer {
-    background-color: rgb(13, 13, 56);
-    padding: 20px;
+  background-color: rgb(13, 13, 56);
+  padding: 20px;
+  width: 100%;
 }
 
 h4 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
-.menu li a:hover{
-    color: #56658E;
+.menu li a:hover {
+  color: #56658e;
 }
 
-.instagram:hover{
-    color: #56658E;
+.instagram:hover {
+  color: #56658e;
 }
