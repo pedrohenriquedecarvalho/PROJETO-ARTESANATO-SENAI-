@@ -29,7 +29,7 @@ article {
     width: 350px;
     height: 450px;
     background-color: transparent;
-    border: #101B39, solid, 2px;
+    border: var(--cor--menu), solid, 2px;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
@@ -42,16 +42,7 @@ article {
 .botao{
     margin-top: 10px;
     padding: 1rem;
-    background-color: #101B39;
-    cursor: pointer;
-    font-size: 10px;
-    border-radius: 5px;
-}
-
-.botaoADD{
-    margin-top: 10px;
-    padding: 0.9rem;
-    background-color: #101B39;
+    background-color: var(--cor--menu);
     cursor: pointer;
     font-size: 10px;
     border-radius: 5px;
@@ -82,9 +73,11 @@ article p {
     font-weight: bold;
 }
 
+
+
 .preco2 {
     text-decoration: line-through;
-    color: #101B39;
+    color: #000;
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
@@ -93,7 +86,7 @@ article p {
 }
 
 .preco {
-    color: #101B39;
+    color: #000;
     font-weight: bold;
     font-size: 40px;
     display: flex;
@@ -104,7 +97,9 @@ article p {
     margin-top: 1.5rem;
 }
 
-
+#bolsa{
+margin-top: 1rem;
+}
 
 li a:hover {
     color: #56658E;

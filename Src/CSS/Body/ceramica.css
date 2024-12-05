@@ -48,15 +48,6 @@ article {
     border-radius: 5px;
 }
 
-.botaoADD{
-    margin-top: 10px;
-    padding: 0.9rem;
-    background-color: #101B39;
-    cursor: pointer;
-    font-size: 10px;
-    border-radius: 5px;
-}
-
 .botoes{
     margin-top: 2rem;
 }

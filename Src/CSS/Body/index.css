@@ -1,48 +1,42 @@
 :root {
-    --cor--terciaria:#8F9AB8;
-    --cor--segundaria:#56658E;
-    --cor--primaria:#C3CCE3;
-    --cor--menu:#101B39;
+    --cor--terciaria: #8F9AB8;
+    --cor--segundaria: #56658E;
+    --cor--primaria: #C3CCE3;
+    --cor--menu: #101B39;
     --sombra-menu: #2C3B63;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .conteudo {
     display: flex;
+
+    margin-bottom: 2rem;
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin: 2rem 1rem;
 }
 
 .conteudo article {
     color: white;
     width: 100%;
     height: 100%;
+    margin: 1rem;
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.textArticle{
-    margin-top: -10rem;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
+.conteudo {
+    background: url("/PROJETO-ARTESANATO-SENAI-/Imagens esquina do artesanato/Imagens restantes/fachada2.png") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
 }
 
-.conteudo article img {
-    margin-top: -1.2rem;
-    width: 50%;
-    height: 100%;
+@media screen and (max-width: 768px) {
+    
 }
-
-li a:hover{
-    color: #56658E;
-}
-
-.instagram:hover{
-    color: #56658E;
-}
-
-

@@ -5,138 +5,174 @@
     --cor-link: #8F9AB8;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh;
-
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    overflow: hidden;
 }
 
-.fotoLogo{
-    width: 30%;
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3;
 }
 
-header {
+a:hover {
+    opacity: 0.7;
+}
+
+header nav .logo img {
+    width: 100px;
+    height: 90px;
+    margin: 2rem;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--cor-do-menu);
-    width: 100vw;
-    height: 20%;
+    height: 14vh;
+}
+
+.nav-list {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 1rem 1rem var(--sombra-menu);
+    list-style: none;
 }
 
-header img {
-    width: 30%;
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
 
-.cabecalho {
+.mobile-menu button img {
+    width: 20px;
+    height: 20px;  
+}
+
+.btn-fechar {
+    padding: 20px 5%;
+}
+
+.btn-abrir-menu button {
+    background: transparent;
+    border: none;
+}
+
+.mobile-menu button {
+    background: transparent;
+    border: none;
+}
+
+.mobile-menu {
+    text-decoration: none;
+    background: var(--cor-do-menu);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .3s;
+    max-width: 500px;
+}
+
+.mobile-menu.abra-menu {
+    width: 70%;
+}
+
+.mobile-menu.abra-menu ~ .overlaymenu {
+    display: block;
+}
+
+.mobile-menu li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 10%;
+    display: block;
+}
+
+.mobile-menu li a:hover {
+    background-color: var(--sombra-menu);
+} 
+
+.mobile-menu ul {
+    text-align: right;
+}
+
+.btn-abrir-menu img {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+}
+
+.overlaymenu {
+    background-color: var(--sombra-menu);
+    opacity: 50%;
     width: 100%;
-    height: 60%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+.procurar {
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    padding-top: 1%;
+    padding-right: 3%;
+    background: var(--cor-do-menu);
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
-.cabecalho :nth-child(even) {
-    margin: 0 1rem;
-}
-
-.cabecalho img {
-    margin-top: 3rem;
-    width: 18vh;
-}
-
-.cabecalho h1 {
-    font-family: Ruge Boogie, sans-serif;
-    font-weight: 100;
-}
-
-.cabecalho a {
-    width: 10%;
-
-}
-
-.cabecalho button a img {
-    width: 50%;
-    border-radius: 50%;
-}
-
-.cabecalho form {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    width: 50%;
-    height: 2.5rem;
-}
-
-.cabecalho form input {
-    width: 100%;
-    height: 80%;
-    color: black;
-}
-
-.menu {
-    margin-top: 2rem;
-    background-color: var(--cor-do-menu);
-    width: 100%;
-    height: auto;
-    justify-content: center;
-}
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.menu li {
-    margin: 0.25rem;
-    padding: 0.7rem;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    padding: 0.7rem;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.menu img {
-    width: 5vw;
-    height: auto;
-}
-
-.menu h1 {
-    font-size: 1.2rem;
-    margin: 0 1rem;
-    padding: 0;
-    color: white;
-    width: 4rem;
+.procurar form input {
+    border-radius: 16px;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 2%;
+    width: 55vw;
     height: 2rem;
+    max-width: 600px;
+    color: #000;
 }
 
-.carrinho {
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
-    border: transparent;
-    border: solid;
-    border: 1px;
-    background-color: transparent;
-    background-position: center;    
+.procurar button{
+    background: transparent;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.procurar button img {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-list {
+        display: none;
+    }
+
+    .procurar form input {
+        max-width: 500px;
+    }
 }

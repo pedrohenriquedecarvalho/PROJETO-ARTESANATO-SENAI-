@@ -16,28 +16,52 @@
 
 <body>
     <header>
-        <div class="cabecalho">
-            <a href="/index.html"><img src="/Imagens esquina do artesanato/Imagens restantes/Logo.png.png" alt="Logo Esquina do artesanato" class="fotoLogo"></a>
-            <h1>Esquina do artesanato</h1>
-            <form action="get">
-                <input type="search" placeholder="     pesquise produtos...">
-            </form>
-            <button class="carrinho"><a href="/Src/HTML/Body/carrinho de compras.html"><img src="/Imagens esquina do artesanato/Imagens restantes/carrinho de compras.png"></a></button>
-        </div>
-        <nav class="menu">
-            <ul>
+        <nav>
+            <a class="logo" href="./index.html" type="button"><img
+                    src="./Imagens esquina do artesanato/Imagens restantes/Logo.png.png" alt="Logo do Site">
+            </a>
+            <ul class="nav-list">
                 <li><a href="./promoções.html">20% OFF</a></li>
                 <li><a href="./croche.html">Crochê</a></li>
                 <li><a href="./mdf.html">MDF</a></li>
                 <li><a href="./Ceramica.html">Cerâmica</a></li>
                 <li><a href="./vasos.html">Vasos</a></li>
-                <li><a href="/index.html">Sobre nós</a></li>
+                <li><a href="./index.html">Sobre nós</a></li>
                 <li><a href="./ajuda.html">Ajuda</a></li>
                 <li><a href="./teladelogin.html">Login</a></li>
             </ul>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <img src="./Imagens esquina do artesanato/Imagens restantes/menu.png" alt="Menu">
+            </div>
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="btn-fechar">
+                    <button>
+                        <img src="./Imagens esquina do artesanato/Imagens restantes/close.png" alt="fechar">
+                    </button>
+                </div>
+                <ul class="links">
+                    <li><a href="./promoções.html">20% OFF</a></li>
+                    <li><a href="./croche.html">Crochê</a></li>
+                    <li><a href="./mdf.html">MDF</a></li>
+                    <li><a href="./Ceramica.html">Cerâmica</a></li>
+                    <li><a href="./vasos.html">Vasos</a></li>
+                    <li><a href="./index.html">Sobre nós</a></li>
+                    <li><a href="./ajuda.html">Ajuda</a></li>
+                    <li><a href="./teladelogin.html">Login</a></li>
+                    <li><a href="./carrinho de compras.html">Meu Carrinho</a></li>
+                </ul>
+            </div>
+            <div class="overlaymenu" id="overlaymenu"></div>
         </nav>
-
     </header>
+    <nav class="procurar">
+        <div>
+            <form action="get">
+                <input type="search" placeholder="       pesquise produtos..." id="search">
+            </form>
+        </div>
+        <button class="carrinho"><a href="/Src/HTML/Body/carrinho de compras.html"><img src="./Imagens esquina do artesanato/Imagens restantes/carrinho de compras.png"></a></button>  
+    </nav>
 
     <body>
         <h1 class="texto">Formas de Pagamento</h1>
@@ -55,7 +79,7 @@
             <p>Telefone: (19)97361-2538</p>
             <p>E-mail: esquinadoartesanato@gmail.com</p>
         </footer>
-
+        <script src="menu.js"></script>
     </body>
 
 </html>
