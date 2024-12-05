@@ -58,8 +58,16 @@ p {
     margin-bottom: 9px;
 }
 
+#email{
+    color: black;
+}
+
 .senha {
     margin-top: 9px;
+}
+
+#senha{
+    color: black;
 }
 
 .login form {
@@ -106,4 +114,7 @@ a{
     cursor: pointer;
     color: #56658E;
 
+}
+a{
+    text-decoration: none;
 }

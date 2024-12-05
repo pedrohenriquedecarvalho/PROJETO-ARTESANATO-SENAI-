@@ -18,6 +18,10 @@ body {
 
 }
 
+.fotoLogo{
+    width: 30%;
+}
+
 header {
     background-color: var(--cor-do-menu);
     width: 100vw;
@@ -62,7 +66,7 @@ header img {
 
 }
 
-.cabecalho a img {
+.cabecalho button a img {
     width: 50%;
     border-radius: 50%;
 }

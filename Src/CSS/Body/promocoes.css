@@ -18,7 +18,7 @@ rem para letras e margens */
 
 #titulo{
     margin-top: 5rem;
-    margin-left: 50%;
+    margin-left: 40%;
     color: black;
 }
 
@@ -45,7 +45,7 @@ article {
 }
 
 
-.botao{
+.botaoADD{
     margin-top: 10px;
     padding: 1rem;
     background-color: #101B39;

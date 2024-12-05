@@ -86,6 +86,10 @@ h3{
 
 }
 
+#senha{
+    color: black;
+}
+
 li a:hover{
     color: #56658E;
 }
