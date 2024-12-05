@@ -11,7 +11,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  background-color: var(--fundo-do-site);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
