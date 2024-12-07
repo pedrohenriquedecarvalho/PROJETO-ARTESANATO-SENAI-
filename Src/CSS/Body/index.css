@@ -28,11 +28,9 @@
     margin-top: -10rem;
     display: flex;
     flex-direction: column;
-    z-index: 1;
 }
 
 .conteudo article img {
-    margin-top: -0.3rem;
     width: 50%;
     height: 100%;
 }
