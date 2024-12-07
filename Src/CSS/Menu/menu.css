@@ -159,21 +159,12 @@ header img {
         margin-left: -1rem;
     }
 
-    nav.menu{
-        
-    }
-
     #menu-toggle {
         display: block;
     }
 
     .menu ul {
-        flex-direction: column
-
-        nav.menu{
-
-     
-        }
+        flex-direction: column; 
     }
 
     .menu li {
