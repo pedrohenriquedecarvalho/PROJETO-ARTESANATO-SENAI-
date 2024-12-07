@@ -18,7 +18,7 @@ body {
 
 }
 
-.fotoLogo{
+.fotoLogo {
     width: 30%;
 }
 
@@ -30,7 +30,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 1rem 1rem var(--sombra-menu);
 }
 
 header img {
@@ -138,5 +137,51 @@ header img {
     border: solid;
     border: 1px;
     background-color: transparent;
-    background-position: center;    
+    background-position: center;
+}
+
+/* responsividade */
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        margin-top: rem;
+        height: auto;
+    }
+
+    .fotoLogo {
+        display: flex;
+        justify-content: center;
+        margin-left: -1rem;
+    }
+
+    nav.menu{
+        
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    .menu ul {
+        flex-direction: column
+
+        nav.menu{
+
+     
+        }
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu a {
+        font-size: 1.2rem;
+    }
 }
