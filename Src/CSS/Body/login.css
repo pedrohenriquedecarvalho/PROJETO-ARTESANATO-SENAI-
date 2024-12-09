@@ -23,7 +23,7 @@ body {
 }
 
 .login {
-    margin-bottom: 100px;
+    margin-bottom: 2rem;
     padding-top: 50px;
     background-color: var(--cor--menu);
     width: 500px;

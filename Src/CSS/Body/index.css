@@ -35,6 +35,10 @@
     height: 100%;
 }
 
+.fotoFachada{
+    margin-bottom: 1.2rem;
+}
+
 li a:hover {
     color: #56658E;
 }
@@ -78,7 +82,7 @@ li a:hover {
     }
 
     .conteudo article img {
-        margin-top: -8.8rem;
+        margin-top: -7.4rem;
         width: 80%;
         height: 80%;
     }
