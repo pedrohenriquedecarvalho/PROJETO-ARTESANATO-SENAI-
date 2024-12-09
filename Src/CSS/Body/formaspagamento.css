@@ -27,8 +27,8 @@ li a:hover{
 
 .pagamento{
     margin-top: 30px;
-    width: 600px;
-    height: 900px;
+    width: 60%;
+    height: 80%;
     margin-left: 330px;
 }
 
@@ -36,4 +36,11 @@ li a:hover{
     margin-top: 50px;
     text-align: center;
     color: black;
+}
+
+@media (max-width: 768px) {
+
+    .pagamento{
+        margin-left: 5rem;
+    }
 }

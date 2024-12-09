@@ -112,3 +112,12 @@ a{
 a{
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+.titulo{
+    margin-top: 1rem;
+}
+
+
+}
