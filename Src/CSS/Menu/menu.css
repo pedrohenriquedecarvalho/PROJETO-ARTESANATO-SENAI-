@@ -156,7 +156,7 @@ header img {
     .fotoLogo {
         display: flex;
         justify-content: center;
-        margin-left: -1rem;
+        margin-left: -2rem;
     }
 
     #menu-toggle {
@@ -165,6 +165,7 @@ header img {
 
     .menu ul {
         flex-direction: column; 
+        margin-left: 1rem;
     }
 
     .menu li {
