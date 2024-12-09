@@ -5,8 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="login">
+        <h1>LOGIN</h1>
+        <p class="titulo">Para continuar acessando nossos produtos e ofertas, preencha os campos a seguir:</p>
+
+        <form method="get">
+            <h3 class="E-mail">E-mail</h3>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="   E-mail*" required>
+
+            <h3 class="senha">Senha</h3>
+            <label for="senha" class="senha"></label>
+            <input type="password" name="senha" id="senha" placeholder="   Senha*" required>
+
+            <p class="termos">Ao continuar, afirmo que concordo com a</p>
+            <p class="termo">Política de privacidade e os Termos de uso da Loja da Esquina.</p>
+
+            <input type="submit" value="Enviar" id="enviar">
+
+           <a href="cadastro.html">Cadastre-se</a>
+        </form>
+    </section>
+    
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link rel="stylesheet" href="/Src/CSS/Body/login.css">
-    <link rel="stylesheet" href="/Src/CSS/Footer/footer.css">
     <link rel="stylesheet" href="/Src/CSS/Menu/menu.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +65,29 @@
 </head>
 
 <body>
+    <header>
+        <div class="cabecalho">
+            <a href="/index.html"><img src="/Imagens esquina do artesanato/Imagens restantes/Logo.png.png" alt="Logo Esquina do artesanato" class="fotoLogo"></a>
+            <h1>Esquina do artesanato</h1>
+            <form action="get">
+                <input type="search" placeholder="     pesquise produtos..." id="search">
+            </form>
+            <button class="carrinho"><a href="/Src/HTML/Body/carrinho de compras.html"><img
+                        src="/Imagens esquina do artesanato/Imagens restantes/carrinho de compras.png"></a></button>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="./promoções.html">20% OFF</a></li>
+                <li><a href="./croche.html">Crochê</a></li>
+                <li><a href="./mdf.html">MDF</a></li>
+                <li><a href="./Ceramica.html">Cerâmica</a></li>
+                <li><a href="./vasos.html">Vasos</a></li>
+                <li><a href="/index.html">Sobre nós</a></li>
+                <li><a href="./ajuda.html">Ajuda</a></li>
+                <li><a href="./teladelogin.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="login">
         <h1>LOGIN</h1>
         <p class="titulo">Para continuar acessando nossos produtos e ofertas, preencha os campos a seguir:</p>
